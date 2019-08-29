@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<pthread.h>
+#include<sys/types.h>
 void *thread1(void *arg)
 {
 printf("Hello ");
